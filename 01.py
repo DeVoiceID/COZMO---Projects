@@ -23,7 +23,7 @@ import cozmo
 
 
 def cozmo_program(robot: cozmo.robot.Robot):
-    robot.say_text("Hi Henry, meow meow meow bark bark").wait_for_completed()
+    robot.say_text("Merry Christmas").wait_for_completed()
 
 
 cozmo.run_program(cozmo_program)
